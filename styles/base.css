@@ -1,0 +1,14 @@
+/*
+If we were using a local file for fonts we can import them like this
+
+@font-face {
+ font-family: 'Inter';
+ src: url('../location/of-font-file.tff');
+}
+
+But we are not we are linking to them on Google Fonts directly from the HTML
+*/
+
+html {
+  font-family: "Inter", sans-serif;
+}

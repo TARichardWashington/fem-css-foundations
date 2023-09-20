@@ -1,6 +1,4 @@
-html {
-  font-family: "Inter", sans-serif;
-}
+@import url(base.css);
 
 body {
   background-color: #ff7b54;
