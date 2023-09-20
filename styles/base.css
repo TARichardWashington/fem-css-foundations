@@ -9,6 +9,19 @@ If we were using a local file for fonts we can import them like this
 But we are not we are linking to them on Google Fonts directly from the HTML
 */
 
-html {
-  font-family: "Inter", sans-serif;
+:root {
+  --font-family: "Inter", sans-serif;
+  --color-primary: #ff7b54;
+  --color-text-on-primary: #fff;
+}
+
+body {
+  background-color: var(--color-primary);
+  color: var(--color-text-on-primary);
+  font-family: var(--font-family);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
