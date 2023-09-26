@@ -26,5 +26,10 @@
 }
 
 .speaker__bio {
-  font-size: 32px;
+  font-size: 24px;
+}
+
+.speaker__bio,
+.speaker__company {
+  color: var(--color-text-on-secondary);
 }

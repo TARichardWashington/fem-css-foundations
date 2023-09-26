@@ -16,11 +16,12 @@ But we are not we are linking to them on Google Fonts directly from the HTML
   --color-button-border: var(--color-text-on-primary);
   --color-button-primary-bg: var(--color-text-on-primary);
   --color-button-primary-text: var(--color-primary);
-
   --color-button-secondary-bg: var(--color-primary);
   --color-button-secondary-text: var(--color-text-on-primary);
+  --color-text-on-secondary: #000;
 }
 
+h2,
 p {
   margin: 0;
 }
