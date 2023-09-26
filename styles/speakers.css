@@ -7,3 +7,13 @@
 .speakers .shopping-cart-icon-primary g path {
   fill: var(--color-primary);
 }
+
+.speaker__photo {
+  width: 310px;
+  height: 310px;
+  object-fit: cover;
+}
+
+.speaker__photo--top {
+  object-position: top;
+}
