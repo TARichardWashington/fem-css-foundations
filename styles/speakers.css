@@ -1,5 +1,9 @@
 @import url(base.css);
 
-.shopping-cart-icon-primary g path {
+.speakers .main__title {
+  font-size: 98px;
+}
+
+.speakers .shopping-cart-icon-primary g path {
   fill: var(--color-primary);
 }
