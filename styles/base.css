@@ -116,3 +116,38 @@ a {
 .nav__list-item {
   font-size: 20px;
 }
+
+@media (max-width: 1220px) {
+  .button {
+    font-size: 24px;
+    padding: 0 32px;
+    height: 70px;
+  }
+
+  .button img {
+    height: 24px;
+  }
+}
+
+@media (max-width: 815px) {
+  .main {
+    padding: 75px;
+  }
+}
+
+@media (max-width: 700px) {
+  .button {
+    font-size: 16px;
+    margin-top: 24px;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .button:not(button:last-of-type) {
+    margin-inline-end: 0px;
+  }
+}
