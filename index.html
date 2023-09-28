@@ -50,6 +50,14 @@
         </div>
 
     </main>
+    <script>
+        const nav = document.querySelector('.nav');
+        const menu = document.querySelector('.menu');
+
+        menu.addEventListener('click', (e) => {
+            nav.classList.toggle('nav--visible');
+        });
+    </script>
 </body>
 
 </html>
